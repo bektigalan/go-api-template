@@ -14,7 +14,7 @@ Golang API boilerplate using GoFiber and PostgreSQL
 - `/config` - For handling configuration/env variables
 - `/db` - For handling database connections 
 - `/handlers` - For handling responses and db transactions
-- `/models` - Auto generated models from database tables using [sqlboiler](https://pkg.go.dev/github.com/volatiletech/sqlboiler/v4@v4.16.1)
+- `/models` - Auto generated models from database tables using [sqlboiler](https://pkg.go.dev/github.com/aarondl/sqlboiler/v4@v4.16.1)
 - `/secure` - Contains SSL certificates, gitignore'd
 - `/types` - For defining custom types that can be used across the app
 - `/utils` - For utility functions
@@ -34,7 +34,7 @@ Golang API boilerplate using GoFiber and PostgreSQL
 
 3. Search for `atharvbhadange/go-api-template` in the project and replace it with `<your-github-id/project-name>`.
 
-4. Run `go install github.com/volatiletech/sqlboiler/v4/drivers/sqlboiler-psql@latest` to install sqlboiler for generating models.
+4. Run `go install github.com/aarondl/sqlboiler/v4/drivers/sqlboiler-psql@latest` to install sqlboiler for generating models.
 
 5. Change the `models/sqlboiler.toml` file to match your database configuration.
 
